@@ -39,7 +39,7 @@ class FinderScreen extends StatelessWidget {
               textInputAction: TextInputAction.done,
               onSubmitted: (v) => Navigator.pop(ctx, v),
               decoration: InputDecoration(
-                hintText: 'Rename yor device here',
+                hintText: 'Rename your device here',
                 filled: true,
                 fillColor: Zy.surfaceHi,
                 border: OutlineInputBorder(
